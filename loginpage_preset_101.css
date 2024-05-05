@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Kuda_izuna.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+   }
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    backdrop-filter: blur(10px) ;
+    box-shadow: 0 0 20px black;
+    margin-top: 100px;
+}
+
+.wrapper h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.wrapper .inputbox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputbox input::placeholder {
+    color: black;
+}
+
+.inputbox i  {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+display: flex;
+justify-content: space-between;
+font-size: 15px;
+margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot label input:hover {
+    accent-color: #fff;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.remember-forgot a {
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #ffffffb9;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.register-link p a:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
